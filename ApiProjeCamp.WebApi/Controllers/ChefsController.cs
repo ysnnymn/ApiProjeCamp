@@ -55,7 +55,7 @@ namespace ApiProjeCamp.WebApi.Controllers
             var value=_context.Chefs.FirstOrDefault(x => x.ChefId == id);
             _context.Chefs.Remove(value);
             _context.SaveChanges();
-            return Ok("Silindi");
+            return Ok("Silindiii");
         }
         
     }
